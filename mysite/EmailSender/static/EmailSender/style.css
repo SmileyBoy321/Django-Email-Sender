@@ -1,0 +1,22 @@
+#Header {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: darkcyan;
+    line-height: 10px;
+}
+
+#header_text {
+    padding-left: 5px;
+}
+
+#Email_Button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
