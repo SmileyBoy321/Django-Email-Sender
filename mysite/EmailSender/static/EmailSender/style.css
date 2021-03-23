@@ -13,7 +13,7 @@
     padding-left: 5px;
 }
 
-.create-email-btn {
+.flexbox-button {
     position: fixed;
     bottom: 10px;
     right: 10px;

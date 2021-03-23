@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'EmailSender/style.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>{% block title %}Email Sender{% endblock title %}</title>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        {% block flex-container-content %}
+        <div class="flexbox-header">
+            <h1 class="header-text">Email Sender</h1>
+        </div>
+        <div class="flexbox-button">
+            <a href="{% url 'compose' %}" class="btn btn-info">Compose</a>
+        </div>
+        {% endblock flex-container-content %}
+    </div>
+
+    {% block content %}{% endblock content %}
+</body>
+
+</html>
