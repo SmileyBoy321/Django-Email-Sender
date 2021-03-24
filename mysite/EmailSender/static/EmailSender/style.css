@@ -1,20 +1,14 @@
-.flex-container {
-    display: flex;
-}
-
-.flexbox-header {
-    flex: 1;
-    background-color: darkcyan;
-    color: white;
-    line-height: 10px;
-}
-
-.header-text {
-    padding-left: 5px;
+body, html {
+    height: 100%;
+    overflow: hidden;
 }
 
 .flexbox-button {
     position: fixed;
     bottom: 10px;
     right: 10px;
+}
+
+#emailTextarea {
+    resize: none;
 }
