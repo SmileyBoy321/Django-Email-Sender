@@ -7,7 +7,7 @@
     <title>Home</title>
 </head>
 <body>
-    <form>
+    <form method="POST">
         {% csrf_token %}
         <table>
             {{ form.as_table }}
