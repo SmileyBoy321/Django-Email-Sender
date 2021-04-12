@@ -8,4 +8,4 @@ class ComposeForm(forms.Form):
     email_subject = forms.CharField(
         required=False, widget=TextInput(attrs={"placeholder": "Subject"})
     )
-    email_message = forms.CharField(widget=forms.Textarea())
+    email_message = forms.CharField(required=True, label="", widget=forms.Textarea())
