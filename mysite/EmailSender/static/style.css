@@ -1,0 +1,9 @@
+html, body {
+    overflow: hidden;
+}
+
+#submit_button {
+    position: absolute;
+    top: 780px;
+    right: 610px;
+}
